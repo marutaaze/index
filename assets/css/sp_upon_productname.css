@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* スマホ商品ページ 画像下にテキストを入れるカスタマイズ v001 */
+
+#itemImageSlider::after {
+    display: block;
+    box-sizing: border-box;
+    white-space: pre;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px; /*1.テキスト枠の角を丸く*/
+    width: 90%; /*2.テキスト枠の横幅サイズ指定*/
+    margin-top: 24px; /*3.テキスト枠上部と商品画像間の余白*/
+    margin-bottom: 24px; /*4.テキスト枠下部と商品名間の余白*/
+    padding: 16px; /*5.テキストと枠までの余白*/
+    background: #ff8c00; /*6.テキスト枠の背景色*/
+    border: none; /*7.テキスト枠の背景色*/
+    color: #fff; /*8.文字色*/
+    font-size: 18px; /*9.文字サイズ*/
+    line-height: 1.8em; /*10.行間*/
+    font-weight: bold; /*11.文字の太字指定*/
+    content: "詳しい商品情報は\Aページ後半をご覧ください。"; /*12.表示されるテキスト、（\Aは改行）*/
+}

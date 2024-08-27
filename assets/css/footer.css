@@ -1,0 +1,338 @@
+.mob{
+    display: none;
+}
+footer {
+    background: #faf6f3;
+    padding-top: 100px;
+    min-width: 980px;
+}
+
+.shopping_guide {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 0px;
+
+
+}
+
+.shopping_guide h2.title_center::before {
+    height: 0;
+}
+
+.shopping_guide .group {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.shopping_guide .group .item {
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 45px;
+}
+
+.shopping_guide .group .item:nth-of-type(1),
+.shopping_guide .group .item:nth-of-type(2),
+.shopping_guide .group .item:nth-of-type(3) {
+    margin-top: 0;
+}
+
+.shopping_guide .group .item:nth-of-type(3n+3) {
+    margin-right: 0;
+}
+
+.shopping_guide .item .subtitle {
+    background: #6e5c50;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.shopping_guide .content {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.shopping_guide .content p {
+    margin-bottom: 4px;
+}
+
+.shopping_guide .content .tip {
+    /* background: */
+}
+
+.shopping_guide .content a {
+    display: inline-block;
+    border: 1px solid #333;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px;
+    /* margin-bottom: 6px; */
+}
+
+.shopping_guide .content .keynote {
+    background: #6e5c50;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.shopping_guide .cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.shopping_guide .cards img {
+    width: 52px;
+    margin-right: 8px;
+}
+
+.shopping_guide .cards img:last-of-type {
+    margin-right: 0;
+}
+
+.shopping_guide ul {
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+
+.shopping_guide ul li {
+    list-style: square;
+}
+
+footer .bottom,
+.mob_footer .bottom {
+    margin-top: 80px;
+    background: #6e5c50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 10px;
+    font-size: 12px;
+}
+
+footer .links a,
+.mob_footer .links a {
+    display: inline-block;
+    margin: 0 10px 10px;
+}
+
+footer .links img,
+.mob_footer .links img {
+    height: 18px;
+}
+
+footer .content p.mail,
+.mob_footer .content p.mail {
+    background: url(https://www.rakuten.ne.jp/gold/chiclab/img/email.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+footer .content p.mobile,
+.mob_footer .content p.mobile {
+    background: url(https://www.rakuten.ne.jp/gold/chiclab/img/phone.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+footer .content p.time,
+.mob_footer .content p.time {
+    background: url(https://www.rakuten.ne.jp/gold/chiclab/img/clock.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+footer .content p.tip,
+.mob_footer .content p.time {
+    background: url(https://www.rakuten.ne.jp/gold/chiclab/img/tip.png) left top no-repeat;
+    background-size: 18px;
+    padding-left: 30px;
+}
+
+table.calbase_rakuten {
+    background-color: #FFFFFF;
+
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px 0px 10px 0px;
+}
+
+table.calbase_rakuten * {
+    font-size: 98%;
+    color: #000000;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+}
+
+table.calbase_rakuten th {
+    text-align: center;
+}
+
+th.caltitle_rakuten {
+
+
+    font-size: 85%;
+
+
+
+
+
+    padding: 10px 0px 0px 0px;
+}
+
+table.calframe_rakuten {
+    border-collapse: collapse;
+    margin: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.calframe_rakuten th {
+    text-align: center;
+    padding: 0px 0px 3px 0px;
+}
+
+table.calframe_rakuten td {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 19px;
+    height: 17px;
+    text-align: center;
+}
+
+tr.weektitle_rakuten td {
+    background-color: #EEEEEE;
+}
+
+td.event1day_rakuten {
+    background-color: #FFC6C6 !important;
+}
+
+font.event1day_rakuten {
+    color: #FFC6C6;
+}
+
+td.event2day_rakuten {
+    background-color: #B5DAFF !important;
+}
+
+font.event2day_rakuten {
+    color: #B5DAFF;
+}
+
+td.event3day_rakuten {
+    background-color: #FEDE93 !important;
+}
+
+font.event3day_rakuten {
+    color: #FEDE93;
+}
+
+table.event_rakuten {
+    text-align: left;
+    word-break: break-all;
+    margin: 7px 10px 7px 10px;
+    border-collapse: collapse;
+    line-height: 120%;
+    table-layout: fixed;
+    width: 141px;
+}
+
+table.event_rakuten td {
+    padding: 0px 0px 0px 0px;
+}
+
+table.text_rakuten {
+    text-align: left;
+    word-break: break-all;
+    margin: 0px 10px 10px 10px;
+    border-collapse: collapse;
+    line-height: 120%;
+    table-layout: fixed;
+    width: 141px;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        padding-top: 50px;
+        display: none;
+    }
+
+    .mob_footer {
+        background: #faf6f3;
+        padding-top: 60px;
+        display: block;
+    }
+
+    .mob_footer .shopping_guide .group {
+        display: block;
+    }
+
+    .mob_footer .shopping_guide .group .item {
+        width: 100%;
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+
+    .mob_footer .bottom {
+        margin-top: 0;
+    }
+
+    .mob_footer .other_links .inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0 20px;
+    }
+
+    .mob_footer .other_links a {
+        width: 50%;
+        padding-left: 30px;
+        position: relative;
+        z-index: 2;
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+
+    .mob_footer .other_links a::after {
+        content: "";
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .mob_footer .other_links a:nth-of-type(1)::after {
+        background: url(../img/icon6.png) #6e5c50 4px center no-repeat;
+        background-size: 16px auto;
+    }
+
+    .mob_footer .other_links a:nth-of-type(2)::after {
+        background: url(../img/icon7.png) #6e5c50 4px center no-repeat;
+        background-size: 16px auto;
+    }
+
+    .mob_footer .other_links a:nth-of-type(3)::after {
+        background: url(../img/icon8.png) #6e5c50 4px center no-repeat;
+        background-size: 16px auto;
+    }
+
+    .mob_footer .other_links a:nth-of-type(4)::after {
+        background: url(../img/icon9.png) #6e5c50 4px center no-repeat;
+        background-size: 16px auto;
+    }
+}
